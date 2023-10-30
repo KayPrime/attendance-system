@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Attendance System</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <h1>CapacityBay FullStack Web Developers Cohort 3</h1>
+    <h3>Attendance System</h3>
+
+    <div class="inputField">
+        <form id="form" action="">
+            <div>
+                <label for="name">Fullname</label>
+                <br>
+                <input type="text" name="name" id="name" placeholder="Enter your Fullname">
+            </div>
+
+            <div class="">
+                <label for="number">Number</label>
+                <br>
+                <input type="number" name="number" id="number" placeholder="Enter your Number">
+            </div>
+
+            <div class="">
+                <label for="city">City</label>
+                <br>
+                <input type="text" name="city" id="city" placeholder="Enter your City">
+            </div>
+
+            <div class="">
+                <label for="rollnum">Roll No.</label>
+                <br>
+                <input type="number" name="rollnum" id="rollnum" placeholder="Enter your Roll no.">
+            </div>
+
+            <input type="submit" name="button" value = "submit" id="button">
+
+        </form>
+    </div>
+
+    <br>
+    <hr>
+    <br>
+    <div class="tableContainer">
+        <table id="table">
+            <tr>
+                <th id="ser">S/N</th>
+                <th id="nam">Name</th>
+                <th id="num">Number</th>
+                <th id="cit">City</th>
+                <th id="rol">Roll No.</th>
+                <th id="att">Attendance</th>
+            </tr>
+        </table>
+    </div>
+    <script src="app.js"></script>
+</body>
+
+</html>
